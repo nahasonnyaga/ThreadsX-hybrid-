@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: set default font only, avoid overriding bg/text colors globally */
+body {
+  @apply font-sans m-0;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
